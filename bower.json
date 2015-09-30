@@ -1,0 +1,33 @@
+{
+  "name": "projectmolecule",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/muralikrishnat/projectmolecule",
+  "authors": [
+    "Muralikrishna <muralikrishna8811@gmail.com>"
+  ],
+  "description": "project architecture,micro services",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "project",
+    "architecture",
+    "micro",
+    "services"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "projectmolecule",
+  "version": "0.0.1",
+  "description": "project contains all atom projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muralikrishnat/projectmolecule.git"
+  },
+  "keywords": [
+    "project",
+    "architecture",
+    "micro",
+    "services",
+    "micro",
+    "projects"
+  ],
+  "author": "Muralikrishna <muralikrishna8811@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muralikrishnat/projectmolecule/issues"
+  },
+  "homepage": "https://github.com/muralikrishnat/projectmolecule#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
