@@ -1,7 +1,8 @@
 =================
 Project Process :
 -----------------
-    1. /> git clone https://github.com/muralikrishnat/projectmolecule.git
-        will create root project which can be use full to get all the sub projects
+    /> git clone https://github.com/muralikrishnat/projectmolecule.git
+    /> npm install
+    /> bower install
 =================
     
