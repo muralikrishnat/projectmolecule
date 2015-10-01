@@ -5,4 +5,25 @@ Project Process :
     /> npm install
     /> bower install
 =================
+
+
+
+
+
+
+
+==============================
+atom registry service api -- contains list of atom details like name,git url,version
+
+
+
+
+
+
+git clone -b build --single-branch https://github.com/muralikrishnat/atom1.git
+git clone -b master --single-branch https://github.com/muralikrishnat/atom1.git
+
+https://raw.githubusercontent.com/muralikrishnat/atom2/build/build.js
     
+build.js contains 
+Images are root level

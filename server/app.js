@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var app = express();
-var globalConfig = require('./../moleculeConfig')();
+var globalConfig = require('./../globalConfig')();
 app.set('views', path.join(globalConfig.rootPath, 'client/views'));
 app.set('view engine', 'jade');
 

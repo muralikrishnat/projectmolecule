@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Project Molecule</title>
+
+    </head>
+    <body>
+        <div>
+            <h2>Molecule Manager</h2>
+            <ul id="lst-atoms">
+                <li>
+                </li>
+            </ul>
+        </div>
+        <script src="/js/jquery/dist/jquery.min.js" ></script>
+        <script >
+            $(document).ready(function(){
+                $.get('/api/atom-deps',function(depsResponse){
+                    console.log(depsResponse);
+                    var $lstatoms = $('#lst-atoms'), resultString ='', atomKeys = Object.keys(depsResponse);
+                    for(var i =0, len = atomKeys.length; i <len;i++)
+                    {
+                        resultString += '<li>'+ atomKeys[i] +'</li>';
+                    }
+                    $lstatoms.html('').html(resultString);
+                });
+            });
+        </script>
+    </body>
+</html>

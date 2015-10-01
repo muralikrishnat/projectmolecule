@@ -2,8 +2,10 @@
     "Name": "projectmolecule",
     "Title": "Project Molecule",
     "git": "https://github.com/muralikrishnat/projectmolecule.git",
-    "atoms-server-url": "http://localhost:2342/api/atoms",
-    "Deps": {
-        "atom1": "1.0.0"
+    "atoms-server-url": "http://localhost:3454/api/atoms",
+    "deps": {
+        "atom1": "master",
+        "atom2": "build",
+        "atom3": "build"
     }
 }

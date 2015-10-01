@@ -1,6 +1,7 @@
 var _ = require('lodash');
 
 var devconfig= {};
+var stageconfig= {};
 var prodconfig = {};
 var defaultconfig = {
   ENV:'dev',
